@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Лабораторна №2</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      body {
+        .custom-table {
+          width: 100%;
+          border-collapse: collapse;
+          table-layout: fixed;
+        }
+        .custom-table tr:first-child {
+          background-color: #048f8f;
+          color: #ffffff;
+        }
+        .custom-table tr:nth-child(2) {
+          background-color: #f5f504;
+          color: #000000;
+        }
+
+        .custom-table tr:first-child:hover {
+          background-color: #f5f504;
+          color: #000000;
+        }
+        .custom-table tr:nth-child(2):hover {
+          background-color: #048f8f;
+          color: #ffffff;
+        }
+
+        .custom-table td {
+          border: 1px solid black;
+          height: 50px;
+          font-size: 15 px;
+          letter-spacing: 1px;
+          padding-left: 20px;
+        }
+        .custom-table td h3 {
+          color: #f536ba;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <table class="custom-table">
+      <tr>
+        <td width="12.5%"><h3></h3></td>
+        <td width="12.5%"><h3>Поліщук</h3></td>
+        <td colspan="2" rowspan="2"><h3>Дарія</h3></td>
+        <td colspan="2"><h3>Павлівна</h3></td>
+        <td colspan="2" rowspan="2"></td>
+      </tr>
+      <tr>
+        <td colspan="2" width="25%"><h3>ІС-21</h3></td>
+        <td colspan="2"><h3>ЛР-2 Варіант 154</h3></td>
+      </tr>
+
+      <tr>
+        <td colspan="2" width="25%"></td>
+        <td colspan="6"></td>
+      </tr>
+    </table>
+    <br />
+    <br />
+    <br />
+
+    <div class="target">
+      <div class="inner-circle"></div>
+      <div class="line-horizontal"></div>
+      <div class="line-vertical"></div>
+    </div>
+    <div class="target-second">
+      <div class="inner-circle"></div>
+      <div class="line-horizontal"></div>
+      <div class="line-vertical"></div>
+    </div>
+  </body>
+</html>

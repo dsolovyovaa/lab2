@@ -1,0 +1,49 @@
+.target {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border: 20px solid black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-circle {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.line-horizontal,
+.line-vertical {
+  position: absolute;
+  background-color: black;
+}
+
+.line-horizontal {
+  width: 180px;
+  height: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.line-vertical {
+  width: 5px;
+  height: 180px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.target-second {
+  transform: translate(220px, -140px);
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border: 20px solid black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
